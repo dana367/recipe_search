@@ -1,0 +1,19 @@
+[project]
+name = "recipe_search"
+version = "0.1.0"
+description = "recipe_search project"
+authors = [
+    {name = "dana367", email = "dana.larina1@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "none"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
